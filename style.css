@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Orbitron', sans-serif;
+}
+.navbar-container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.navbar-container img{
+    height: 40px;
+    margin-left: 100px;
+}
+.nav-button{
+    color: gray;
+    font-family: sans-serif;
+
+}
+.list{
+    display: flex;
+    list-style: none;
+    padding-top: 10px;
+}
+.list-item{
+    margin: 0px  40px;
+    font-size: 20px;
+}
+.list-item:hover{
+    font-weight: 600;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.button-group{
+    display: flex;
+    margin: 0px 10px;
+    margin-right: 100px;
+}
+.search-icon{
+    margin-right: 10px;
+    margin-top: 5px;
+}
+.nav-button{
+    padding: 5px 24px;
+    border-radius: 8px;
+}
+.hero-container{
+    display: flex;
+}
+.square img{
+    margin: 280px 0px 0px 250px;
+    height: 350px;
+}
+.person-image{
+    position: relative;
+    right: 755px;
+    top: 115px;
+    height: 456px;
+}
+.hero-container-right{
+    position: absolute;
+    float: right;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    margin: 200px 700px;
+}
+.hero-heading{
+    font-size: 55px;
+    width: 750px;
+}
+.hero-description{
+    width: 555px;
+    margin-top: 20px;
+    margin-right: 65px;
+    text-align: center;
+    /* letter-spacing: 1px; */
+    font-family: sans-serif;
+    color: gray;
+    font-weight: 100;
+}
+.globe{
+    margin-left: 200px;
+    margin-top: 50px;
+    height: 60px;
+}
+.star{
+    height: 60px;
+    position: relative;
+    left: 700px;
+    top: 100px;
+}
+.btn{
+    margin-top: 50px;
+    margin-right: 90px;
+}
+.button-email{
+    padding: 4px 30px;
+    border-radius: 10px;
+    font-size: 16px;
+    margin: 0px 10px;
+    background: #fff;
+    color: gray;
+}
+.button-join{
+    padding: 4px 20px;
+    border-radius: 10px;
+    font-size: 16px;
+    background-color: black;
+    color: white;
+}
+.contact-btn{
+    margin-top: 70px;
+    margin-right: 100px;
+}
+.contact-heading{
+    margin-left: 60px;
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: 100;
+}
+.icons{
+    margin-top: 10px;
+   
+}
+.icons > span > img{
+    padding: 0px 5px;
+}
+.star1{
+    margin-right: 200px;
+    position: relative;
+    right: 300px;
+    top: 100px;
+}
